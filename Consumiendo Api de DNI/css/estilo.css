@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&family=Roboto&display=swap');
+
+*,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  background-color: rgb(59, 84, 196);
+  height: 140px;
+}
+
+.title h1 {
+  color: white;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title span {
+  font-weight: 900;
+}
+
+input {
+  outline: none;
+  width: 300px;
+  border: none;
+}
+
+
+.dni {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.inputs {
+  border: solid #5058c6;
+  border-radius: 10px;
+  width: 400px;
+}
+
+button {
+  margin-top: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  background-color: #5058c6;
+  font-weight: bold;
+  outline: none;
+  margin-left: 30px;
+}
+
+button:hover {
+  background-color: rgb(55, 55, 208);
+  color: white;
+}
+
+.row {
+  font-family: 'Onest', sans-serif;
+  background-color: #5058c6;
+  width: 50%;
+  margin-left: 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.col-foto {
+  margin-top: 20px;
+  
+}
+
+.col-foto>h1{
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: 'Onest', sans-serif;
+}
+
+.cont-foto {
+  background-color: white;
+  margin: 20px 10px 30px 50px;
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-foto>.user {
+  display: flex;
+  color: #5058c6;
+  margin-left: 70px;
+  width: 100px;
+  padding-top: 60px;
+
+}
+
+.col-datos>h2 {
+  margin-top: 50px;
+  font-family: 'Onest', sans-serif;
+}
+
+.col-datos>h1 {
+  font-size: 33px;
+  font-family: 'Onest', sans-serif;
+}
+
+.col-datos>h3{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 40px;
+  margin-bottom: 120px;
+}
+
+.logo{
+  width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+  margin-left: 60px;
+}
